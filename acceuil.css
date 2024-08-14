@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questionnaire{
+    background-color: rgb(0, 119, 130);
+    height: auto;
+    width: auto;
+    /* transition: all 10000ms easeW; */
+    padding: 5;
+    font-size: 28px;
+    border-radius: 4px;
+    /* margin-left: 10; */
+    /* transition-timing-function: cubic-bezier(5, 5, 5, 6); */
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.formulaire{
+    background-color: rgb(0, 119, 130);
+    height: auto;
+    width: auto;
+    /* transition: all 10000ms easeW; */
+    padding: 5;
+    font-size: 25px;
+    border-radius: 4px;
+    /* margin-left: 10; */
+    /* transition-timing-function: cubic-bezier(5, 5, 5, 6); */
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .hover:hover{
+        background-color: rgb(1, 75, 79);
+        cursor: pointer;
+        /* font-size: 28; */
+    }
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+.cont_acceuil{
+    background-color: aliceblue;
+    padding: 10;
+    padding-top: 60;
+    display: flex;
+}
+.red{
+    background-color: red;
+    font-size: 3em;
+}

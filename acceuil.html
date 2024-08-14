@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="acceuil.css">
+    </head>
+    <body>
+        <div id="cont_acceuil" class='cont_acceuil'>
+            <!-- <div class="formulaire hover">
+                <a href="Microsoft.html">Nouveau formulaire</a>
+                Nouveau formulaire
+            </div>
+            <div class="questionnaire hover">
+                <a href="Microsoft.html">Nouveau questionnaire</a>
+                
+            </div> -->
+        </div>
+        <script>
+            // document.addEventListener('mouseenter', time)
+            // window.onload
+            function time(){
+                valeur=1
+                var formulaire=document.createElement('div')
+                if(valeur==1){
+                    valeur=2
+                    setTimeout(() => {
+                        console.log('bon')
+                        formulaire.classList.add('formulaire')
+                var lien_formulaire=document.createElement('a')
+                lien_formulaire.href='Microsoft.html'
+                lien_formulaire.innerHTML="Nouveau formulaire"
+                formulaire.classList.add('hover')
+                formulaire.appendChild(lien_formulaire)
+                document.getElementById('cont_acceuil').appendChild(formulaire)
+                
+            }, 1000);} else if(valeur==2){
+                valeur=1
+            setTimeout(() => {
+                console.log('bon')
+                formulaire.classList.remove('formulaire')
+
+                formulaire.classList.add('questionnaire')
+                formulaire.classList.add('hover')
+                formulaire.appendChild(lien_formulaire)
+                document.getElementById('cont_acceuil').appendChild(formulaire)
+                
+            }, 2000);}
+        }
+    // }
+    
+        time()
+        </script>
+    </body>
+</html>

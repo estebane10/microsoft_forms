@@ -1,0 +1,10 @@
+h1{
+    font-size: 5em;
+    color: white;
+}
+div{
+    background-color: red;
+    height: 500px;
+    width: 800px;
+    transition: all 10000ms easeW;
+    }
